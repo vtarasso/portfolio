@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 20px;
+}
+
+.nav a {
+    margin-right: 42px;
+    text-decoration: none;
+    color: #1c1e53;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.logo {
+    width: 186px;
+    height: 40px;
+}
+
+.hero {
+    padding: 100px 0;
+    /* margin-bottom: 140px; */
+    background-color: #F5FCFF;
+}
+
+.subtitle {
+    margin: 0; 
+    margin-bottom: 21px;
+    font-weight: 600;
+    font-size: 21px;
+    color: #282938;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 21px; 
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 120%;
+    color: #282938;
+}
+
+h1 span {
+    color: #5E3BEE;
+}
+
+.hero-text {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #1C1E53;
+}
+
+.text {
+    max-width: 790px;
+}
+
+.expertise {
+    padding: 140px 0;
+}
+
+.article-title {
+    margin: 0;
+    margin-bottom: 50px; 
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color: #282938;
+}
+
+.card {
+    padding: 32px;
+    width: 353px;
+    background-color: #F5FCFF;
+    border-radius: 11px;
+}
+
+.card-img {
+    border-radius: 11px;
+    padding: 13px;
+    margin-bottom: 32px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 21px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #282938;
+}
+
+.card-text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+    color: #1C1E53;
+}
+
+.about {
+    padding: 50px;
+}
+
+.about-img {
+    max-width: 45%;
+}
+
+.about-text {
+    max-width: 45%;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #F5FCFF;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.social a {
+    width: 16px;
+    height: 16px;
+    
+}
+
+.social a img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-1 {
+    border: 1.33px solid #5E3BEE;
+    border-radius: 5px;
+    padding: 15px 35px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: transparent;
+    color: #5E3BEE;
+}
+
+.btn-2 {
+    background-color: #5E3BEE;
+    color: #fff;
+}
